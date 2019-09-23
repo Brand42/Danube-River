@@ -10,6 +10,7 @@ import Hero from "../components/Hero";
 import config from "../core/config";
 import LazyImage from "../components/LazyImage";
 import HydroMap from "../components/HydroMap";
+import ShareIcons from "../components/ShareIcons";
 
 const ARTICLE = config.articles.find(article => article.id === 'hydropower');
 
@@ -35,6 +36,12 @@ export default class MicroPlasticScreen extends BaseScreen {
         <div className="Section__container">
           <div className="max-width-760">
             <div className="Paragraph mb-50px mt-185px">
+
+              <div className="Byline mb-50px">
+                <div className="Byline__text">Nilay Syam & Simon Morris</div>
+                <ShareIcons url={location.href} title={document.title} />
+              </div>
+
               <h4 className="type-h4 mb-30px first-letter-big letter-spacing-normal">
                 During the 1970s, Stanislav Porej was a senior engineer working to construct a series of enormous
                 hydroelectric dams near the border between Romania and Serbia. At the
@@ -428,6 +435,16 @@ export default class MicroPlasticScreen extends BaseScreen {
                 harnessing the river, it’s clear the urge to simply tame the Danube through concrete walls has been
                 replaced by a desire to find solutions less detrimental to nature.
               </div>
+
+              <div className="Byline mt-50px">
+                <div className="Byline__text--small">
+                  Written by <b>Nilay Syam</b> & <b>Simon Morris</b><br/>
+                  Video by <b>Une Herzer</b> & <b>Kieran Lefort</b><br/>
+                  Contributions from <b>Patrick O'Donnell</b><br/>
+                </div>
+                <ShareIcons url={location.href} title={document.title} />
+              </div>
+
             </div>
           </div>
         </div>

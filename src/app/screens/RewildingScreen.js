@@ -11,6 +11,7 @@ import Hero from "../components/Hero";
 import config from "../core/config";
 import LazyImage from "../components/LazyImage"
 import CarouselContent from "../components/CarouselContent";
+import ShareIcons from "../components/ShareIcons";
 
 const ARTICLE = config.articles.find(article => article.id === 'rewilding');
 
@@ -36,6 +37,12 @@ export default class MicroPlasticScreen extends BaseScreen {
         <div className="Section__container">
           <div className="max-width-760">
             <div className="Paragraph mb-50px mt-185px">
+
+              <div className="Byline mb-50px">
+                <div className="Byline__text">Elizabeth Mearns & Simon Morris</div>
+                <ShareIcons url={location.href} title={document.title} />
+              </div>
+
               <h4 className="type-h4 mb-30px first-letter-big letter-spacing-normal">
                 Pointing into the forest, Deli Saavedra signals to his colleague Serban Ion, who shares his compact
                 fiberglass rowing boat. Expertly, the second man thrusts both oars straight and hard into the water to
@@ -443,6 +450,16 @@ export default class MicroPlasticScreen extends BaseScreen {
                 return of the beaver demonstrates, soon the conservationists will be able to step back and allow nature
                 to manage itself.
               </div>
+
+              <div className="Byline mt-50px">
+                <div className="Byline__text--small">
+                  Written by <b>Elizabeth Mearns</b> & <b>Simon Morris</b><br/>
+                  Video by <b>Une Herzer</b>, <b>Calin-Andrei Stan</b> & <b>Paula Harvey</b><br/>
+                  Contributions from <b>Patrick O'Donnell</b><br/>
+                </div>
+                <ShareIcons url={location.href} title={document.title} />
+              </div>
+
             </div>
           </div>
 

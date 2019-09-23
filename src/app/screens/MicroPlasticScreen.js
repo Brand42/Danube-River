@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import Video from "../components/Video";
 import config from "../core/config";
 import LazyImage from "../components/LazyImage";
+import ShareIcons from "../components/ShareIcons";
 
 const ARTICLE = config.articles.find(article => article.id === 'microplastics');
 
@@ -34,6 +35,12 @@ export default class MicroPlasticScreen extends BaseScreen {
         <div className="Section__container">
           <div className="max-width-760">
             <div className="Paragraph mb-50px mt-185px">
+
+              <div className="Byline mb-50px">
+                <div className="Byline__text">Alex Hunt & Nilay Syam</div>
+                <ShareIcons url={location.href} title={document.title} />
+              </div>
+
               <h4 className="type-h4 mb-30px first-letter-big letter-spacing-normal">
                 As it winds thousands of kilometers through Europe, the Danube supplies freight, irrigation and energy
                 to
@@ -476,6 +483,16 @@ export default class MicroPlasticScreen extends BaseScreen {
                 environmental organizations, to identify and tackle what is the big problem caused by these very small
                 things.
               </div>
+
+              <div className="Byline mt-50px">
+                <div className="Byline__text--small">
+                  Written by <b>Alex Hunt</b> & <b>Nilay Syam</b><br/>
+                  Video by <b>Une Herzer</b> & <b>Kieran Lefort</b><br/>
+                  Contributions from <b>Patrick O'Donnell</b><br/>
+                </div>
+                <ShareIcons url={location.href} title={document.title} />
+              </div>
+
             </div>
           </div>
         </div>
