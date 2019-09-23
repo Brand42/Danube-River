@@ -236,6 +236,10 @@
 
   &__text {
     font-size: rem(18px);
+    &--small {
+      font-size: rem(14px);
+      -webkit-font-smoothing: antialiased;
+    }
   }
 
   &__share {
@@ -243,7 +247,14 @@
     font-size: rem(14px);
     -webkit-font-smoothing: antialiased;
 
+    &-copied {
+      position: absolute;
+      z-index: 100;
+      color: $white-color;
+    }
+
     &-button {
+      position: relative;
       cursor: pointer;
       margin-left: 1.25rem;
       width: rem(20px);

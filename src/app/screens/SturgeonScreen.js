@@ -494,6 +494,15 @@ export default class SturgeonScreen extends BaseScreen {
                 thousands of sturgeon back into the Danube – some of which have been found in the Black Sea, confirming
                 their survival.
               </div>
+
+              <div className="Byline mt-50px">
+                <div className="Byline__text--small">
+                  Written by <b>Danny Harries</b> & <b>Simon Morris</b><br/>
+                  Video by <b>Une Herzer</b> & <b>Kieran Lefort</b><br/>
+                  Contributions from <b>Patrick O'Donnell</b><br/>
+                </div>
+                <ShareIcons url={location.href} title={document.title} />
+              </div>
             </div>
           </div>
         </div>

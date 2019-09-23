@@ -11,16 +11,30 @@ export default class ShareIcons extends Component {
     url: PropTypes.string.isRequired,
   };
 
+  state = {
+    copied: false
+  };
+
+  #copyLink = copyLink => () => {
+    this.setState({copied: true});
+    setTimeout(()=>{ this.setState({copied: false}) }, 1000);
+  }
+
   render() {
     return (
       <div className="Byline__share">
         Share:
 
-        <CopyToClipboard text={this.props.url} className="Byline__share-button">
-          <span>
-            <LazyImage src={asset('assets/img/social/link.svg')} alt="Copy to clipboard"/>
-          </span>
-        </CopyToClipboard>
+        <div className="Byline__share-button">
+          <CopyToClipboard text={this.props.url}
+          onCopy={this.#copyLink()}>
+            <span>
+              <LazyImage src={asset('assets/img/social/link.svg')} alt="Copy to clipboard"/>
+            </span>
+          </CopyToClipboard>
+
+          {this.state.copied ? <div className="Byline__share-copied">Copied</div> : null}
+        </div>
 
         <EmailShareButton url={this.props.url} subject={this.props.title} className="Byline__share-button">
           <LazyImage src={asset('assets/img/social/email.svg')} alt="Share on Facebook"/>
