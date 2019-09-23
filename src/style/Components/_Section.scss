@@ -247,6 +247,10 @@
     font-size: rem(14px);
     -webkit-font-smoothing: antialiased;
 
+    @include mobile {
+      margin: 0.5rem 0;
+    }
+
     &-copied {
       position: absolute;
       z-index: 100;
