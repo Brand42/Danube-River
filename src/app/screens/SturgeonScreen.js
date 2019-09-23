@@ -10,6 +10,8 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import config from "../core/config";
 import LazyImage from "../components/LazyImage";
+import { FacebookShareButton, TwitterShareButton, EmailShareButton } from 'react-share';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 const ARTICLE = config.articles.find(article => article.id === 'sturgeon');
 
@@ -32,9 +34,32 @@ export default class SturgeonScreen extends BaseScreen {
 
       <Section className="Section--auto-height Section--black pb-80px">
         <LazyImage src={asset('assets/img/subheader-sturgeon.jpg')} className="img-fluid"/>
+
         <div className="Section__container">
           <div className="max-width-760">
             <div className="Paragraph mb-50px mt-185px">
+
+              <div className="Byline mb-50px">
+                <div className="Byline__text">Danny Harries & Simon Morris</div>
+                <div className="Byline__share">
+                  Share:
+                  <CopyToClipboard text={location.href} className="Byline__share-button">
+                    <span>
+                      <LazyImage src={asset('assets/img/social/link.svg')} alt="Copy to clipboard"/>
+                    </span>
+                  </CopyToClipboard>
+                  <EmailShareButton url={location.href} subject={document.title} className="Byline__share-button">
+                    <LazyImage src={asset('assets/img/social/email.svg')} alt="Share on Facebook"/>
+                  </EmailShareButton>
+                  <TwitterShareButton url={location.href} title={document.title} className="Byline__share-button">
+                    <LazyImage src={asset('assets/img/social/twitter.svg')} alt="Share on Twitter"/>
+                  </TwitterShareButton>
+                  <FacebookShareButton url={location.href} quote={document.title} className="Byline__share-button">
+                    <LazyImage src={asset('assets/img/social/facebook.svg')} alt="Share on Facebook"/>
+                  </FacebookShareButton>
+                </div>
+              </div>
+
               <h4 className="type-h4 mb-30px first-letter-big letter-spacing-normal">
                 Drive for half an hour through the ancient hills south-west of the Romanian town of Tulcea, pass vast
                 fields of sunflowers, turn left down a dirt track in the small
