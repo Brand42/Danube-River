@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import config from "../core/config";
 import LazyImage from "../components/LazyImage";
+import ShareIcons from "../components/ShareIcons";
 
 const ARTICLE = config.articles.find(article => article.id === 'mila-23');
 
@@ -46,6 +47,12 @@ export default class Mila23Screen extends BaseScreen {
         <div className="Section__container">
           <div className="max-width-760">
             <div className="Paragraph mb-50px mt-80px">
+
+              <div className="Byline mb-50px">
+                <div className="Byline__text">Linh Nguyen & Simon Morris</div>
+                <ShareIcons url={location.href} title={document.title} />
+              </div>
+
               <h4 className="type-h4 mb-30px first-letter-big letter-spacing-normal">
                 As the church bell rings shortly after sunrise, 77-year-old Vassili Kolesnik, an Old Believer, goes to
                 his daily prayer, continuing a centuries-old tradition.
@@ -439,6 +446,16 @@ export default class Mila23Screen extends BaseScreen {
                 He looks down at the water, dejected: “We keep working but production is zero. What can I say? There are
                 no fish.”
               </div>
+
+              <div className="Byline mt-50px">
+                <div className="Byline__text--small">
+                  Written by <b>Linh Nguyen</b> & <b>Simon Morris</b><br/>
+                  Video by <b>Une Herzer</b>, <b>Calin-Andrei Stan</b> & <b>Kieran Lefort</b><br/>
+                  Contributions from <b>Patrick O'Donnell</b><br/>
+                </div>
+                <ShareIcons url={location.href} title={document.title} />
+              </div>
+
             </div>
 
           </div>

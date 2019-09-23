@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import config from "../core/config";
 import Video from "../components/Video";
+import ShareIcons from "../components/ShareIcons";
 
 const ARTICLE = config.articles.find(article => article.id === 'sturgeon');
 
@@ -31,6 +32,12 @@ export default class AboutScreen extends BaseScreen {
         <div className="Section__container">
           <div className="max-width-760">
             <div className="Paragraph mb-50px mt-185px">
+
+              <div className="Byline mb-50px">
+                <div className="Byline__text">Simon Morris</div>
+                <ShareIcons url={location.href} title={document.title} />
+              </div>
+
               <div className="Paragraph__content">
                 Like all great rivers it has a charisma which evokes strong emotions, starting with jealousy over its
                 origins.
@@ -128,6 +135,16 @@ export default class AboutScreen extends BaseScreen {
             One of the world's great rivers, loved, exploited, powerful but vulnerable, is a test case for our ability
             to cooperate and to nurture, rather than destroy our natural environment.
           </div>
+
+          <div className="Byline mt-50px">
+            <div className="Byline__text--small">
+              Written by <b>Simon Morris</b><br/>
+              Video by <b>Une Herzer</b> & <b>Kieran Lefort</b><br/>
+              Contributions from <b>Patrick O'Donnell</b><br/>
+            </div>
+            <ShareIcons url={location.href} title={document.title} />
+          </div>
+
         </div>
       </Section>
 
