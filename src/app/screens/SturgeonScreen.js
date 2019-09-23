@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import config from "../core/config";
 import LazyImage from "../components/LazyImage";
+import ShareIcons from "../components/ShareIcons";
 
 const ARTICLE = config.articles.find(article => article.id === 'sturgeon');
 
@@ -32,9 +33,16 @@ export default class SturgeonScreen extends BaseScreen {
 
       <Section className="Section--auto-height Section--black pb-80px">
         <LazyImage src={asset('assets/img/subheader-sturgeon.jpg')} className="img-fluid"/>
+
         <div className="Section__container">
           <div className="max-width-760">
             <div className="Paragraph mb-50px mt-185px">
+
+              <div className="Byline mb-50px">
+                <div className="Byline__text">Danny Harries & Simon Morris</div>
+                <ShareIcons url={location.href} title={document.title} />
+              </div>
+
               <h4 className="type-h4 mb-30px first-letter-big letter-spacing-normal">
                 Drive for half an hour through the ancient hills south-west of the Romanian town of Tulcea, pass vast
                 fields of sunflowers, turn left down a dirt track in the small
@@ -485,6 +493,15 @@ export default class SturgeonScreen extends BaseScreen {
                 Can the sturgeon survive, Maereanu thinks so. With a smile she explains how her team has put tens of
                 thousands of sturgeon back into the Danube – some of which have been found in the Black Sea, confirming
                 their survival.
+              </div>
+
+              <div className="Byline mt-50px">
+                <div className="Byline__text--small">
+                  Written by <b>Danny Harries</b> & <b>Simon Morris</b><br/>
+                  Video by <b>Une Herzer</b> & <b>Kieran Lefort</b><br/>
+                  Contributions from <b>Patrick O'Donnell</b><br/>
+                </div>
+                <ShareIcons url={location.href} title={document.title} />
               </div>
             </div>
           </div>
