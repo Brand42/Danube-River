@@ -29,6 +29,8 @@ export default class Video extends Component {
     muted: false,
     loop: false,
     noSkin: false,
+    fluid: true,
+    aspectRatio: '16:9',
   };
 
   #video = createRef();
@@ -68,12 +70,14 @@ export default class Video extends Component {
         <Player
           ref={this.#video}
           playsInline
+          fluid={this.props.fluid}
           src={this.props.src}
           poster={this.props.poster}
           muted={this.props.muted}
           controls={this.props.controls && !this.props.noSkin}
           autoPlay={this.props.autoPlay}
           loop={this.props.loop}
+          aspectRatio={this.props.aspectRatio}
         >
           {!this.props.noSkin && (
             <ControlBar>
