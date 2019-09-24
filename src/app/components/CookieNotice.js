@@ -34,7 +34,7 @@ export default class CookieNotice extends Component {
         <div className="CookieNotice__actions">
           <div className="CookieNotice__close" onClick={this.#close}>&times;</div>
           <div className="CookieNotice__agree type-h4" onClick={this.#close}>
-            I agree <img src={asset('/assets/img/tick.svg')} alt="I agree"/>
+            I agree <img src={asset('assets/img/tick.svg')} alt="I agree"/>
           </div>
         </div>
       </div>

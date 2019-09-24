@@ -30,7 +30,7 @@ export default {
       x: 90,
       y: 136,
       images: [
-        asset('/assets/img/map-sturgeon.jpg'),
+        asset('assets/img/map-sturgeon.jpg'),
       ],
       videos: [
         'https://video.cgtn.com/public/2019-09-12/public/video/34e90658c667428dac723a516fc321dd/34e90658c667428dac723a516fc321dd.m3u8',
@@ -58,7 +58,7 @@ export default {
       x: 170,
       y: 237,
       images: [
-        asset('/assets/img/map-microplastics.jpg'),
+        asset('assets/img/map-microplastics.jpg'),
       ],
       videos: [
         'https://video.cgtn.com/public/2019-09-12/public/video/a3318b17e0dc4e9d8190e5e21d4fb1b8/a3318b17e0dc4e9d8190e5e21d4fb1b8.m3u8',
@@ -84,7 +84,7 @@ export default {
       x: 410,
       y: 146,
       images: [
-        asset('/assets/img/facts.png'),
+        asset('assets/img/facts.png'),
       ],
       videos: [
         'https://video.cgtn.com/public/2019-09-12/public/video/6358f3e8140a4a0794f5cfb6cf32fa33/6358f3e8140a4a0794f5cfb6cf32fa33.m3u8',
@@ -112,7 +112,7 @@ export default {
       x: 170,
       y: 146,
       images: [
-        asset('/assets/img/articles/rewilding-beaver.jpg'),
+        asset('assets/img/articles/rewilding-beaver.jpg'),
       ],
       videos: [
         'https://video.cgtn.com/public/2019-09-19/public/video/d7abcbbbbf6d44afa4a7479f624b7a5d/d7abcbbbbf6d44afa4a7479f624b7a5d.m3u8',
@@ -136,7 +136,7 @@ export default {
       intro: 'Life of the island people',
       description: 'The Danube is sanctuary to a mosaic of minorities who escaped from neighbouring countries for fear of persecution centuries ago. Notable are the Lipovans from Russia, they are expert fishermen and canoeists, but these traditions are being threatened by environmental changes and a growing tourism sector. In an increasingly connected world, the livelihood of these river people is contingent on their ability to adapt to modern changes, while living in harmony with nature.',
       images: [
-        asset('/assets/img/articles/4.png'),
+        asset('assets/img/articles/4.png'),
       ],
       x: 570,
       y: 100,
