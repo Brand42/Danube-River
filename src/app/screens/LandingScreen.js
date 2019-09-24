@@ -15,8 +15,8 @@ import MuteToggle from "../components/ToggleMute";
 export default class LandingScreen extends BaseScreen {
   #howl = new Howl({
     src: [
-      asset('/assets/audio/background.wav'),
-      asset('/assets/audio/background.mp3'),
+      asset('assets/audio/background.wav'),
+      asset('assets/audio/background.mp3'),
     ],
     ...config.landing.sound,
   });
