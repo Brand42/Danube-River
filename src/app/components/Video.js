@@ -67,7 +67,6 @@ export default class Video extends Component {
       <div className={`Video ${this.props.className} ${this.props.noSkin ? 'Video--no-skin' : ''}`}>
         <Player
           ref={this.#video}
-          fluid
           playsInline
           src={this.props.src}
           poster={this.props.poster}
