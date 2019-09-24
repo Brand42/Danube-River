@@ -26,7 +26,7 @@ export default {
       id: 'sturgeon',
       title: 'Sturgeon',
       intro: 'Caviar mafia vs Danube dinosaur',
-      description: 'For more than 200 million years, sturgeon have lurked beneath the waters of Earth, witnessing the demise of dinosaurs and the rise of man. The Danube long boasted one of the largest populations of the living fossil, but it is now under threat of extinction from dams, pollution and overfishing. Conservationists are working to save the species and are fighting an ongoing battle with the “caviar mafia,” which leads the illegal trade in the fish’s eggs.',
+      description: 'For more than 200 million years, sturgeon have lurked beneath the waters of Earth, witnessing the demise of dinosaurs and human evolution. The Danube long boasted one of the largest populations of the living fossil, but it is now under threat of extinction from dams, pollution and overfishing. Conservationists are working to save the species and are fighting an ongoing battle with the “caviar mafia,” which leads the illegal trade in the fish’s eggs.',
       x: 90,
       y: 136,
       images: [
@@ -80,7 +80,7 @@ export default {
       id: 'hydropower',
       title: 'Hydropower',
       intro: 'The Dam Danube',
-      description: 'There are 62 dams along the length of the Danube, which turn the kinetic energy of water pounding off the Alps into electricity. The clean energy they generate was once lauded as the epitome of a new relationship between man and the environment. But today, their impact is judged by more than carbon dioxide emissions. Fish, birds, soil quality and water pollution are all heavily influenced, often negatively by obstructions to the river’s flow.',
+      description: 'There are 62 dams along the length of the Danube, which turn the kinetic energy of water pounding off the Alps into electricity. The clean energy they generate was once lauded as the epitome of a new relationship between humans and the environment. But today, their impact is judged by more than carbon dioxide emissions. Fish, birds, soil quality and water pollution are all heavily influenced, often negatively by obstructions to the river’s flow.',
       x: 410,
       y: 146,
       images: [
