@@ -257,10 +257,7 @@ export default class MicroPlasticScreen extends BaseScreen {
 
         <div className="Section__container mt-80px">
           <div className="PlasticSource">
-            <video autoPlay playsInline loop muted className="PlasticSource__video">
-              <source src={asset('assets/vid/1.mp4')} type="video/mp4"/>
-              Your browser does not support HTML5 video.
-            </video>
+            <LazyImage src={asset('assets/img/gifs/01_washingmachine.gif')}/>
             <div className="PlasticSource__text">
               Domestic washing machines contribute significantly to the amount of microplastics in the environment.
               Hundreds of thousands of microscopic fibers can be shed from a single garment wash.
@@ -268,10 +265,7 @@ export default class MicroPlasticScreen extends BaseScreen {
           </div>
 
           <div className="PlasticSource PlasticSource--margin-left-160">
-            <video autoPlay playsInline loop muted className="PlasticSource__video">
-              <source src={asset('assets/vid/2.mp4')} type="video/mp4"/>
-              Your browser does not support HTML5 video.
-            </video>
+            <LazyImage src={asset('assets/img/gifs/02_Pipe.gif')}/>
             <div className="PlasticSource__text">
               The fibers pass through the sewage system along with other waste material to reach filtration plants for
               treatment.
@@ -283,10 +277,7 @@ export default class MicroPlasticScreen extends BaseScreen {
               Despite the presence of an elaborate filtration process that includes physical, chemical and biological
               treatment, microfibers often slip through the net.
             </div>
-            <video autoPlay playsInline loop muted className="PlasticSource__video">
-              <source src={asset('assets/vid/3.mp4')} type="video/mp4"/>
-              Your browser does not support HTML5 video.
-            </video>
+            <LazyImage src={asset('assets/img/gifs/03_filter.gif')}/>
           </div>
 
           <div className="PlasticSource PlasticSource--align-right">
@@ -294,10 +285,7 @@ export default class MicroPlasticScreen extends BaseScreen {
               Having successfully defied wastewater filtration, the tiny particles are flushed into rivers and allowed
               to flow downstream into the ocean.
             </div>
-            <video autoPlay playsInline loop muted className="PlasticSource__video">
-              <source src={asset('assets/vid/4.mp4')} type="video/mp4"/>
-              Your browser does not support HTML5 video.
-            </video>
+            <LazyImage src={asset('assets/img/gifs/04_riverpipe.gif')}/>
           </div>
 
           <div className="PlasticSource PlasticSource--margin-right-80 PlasticSource--align-right">
@@ -305,17 +293,11 @@ export default class MicroPlasticScreen extends BaseScreen {
               Microplastics pose a grave danger to aquatic habitats as they are often ingested by marine animals, both
               in river ecosystems and in oceans.
             </div>
-            <video autoPlay playsInline loop muted className="PlasticSource__video">
-              <source src={asset('assets/vid/5.mp4')} type="video/mp4"/>
-              Your browser does not support HTML5 video.
-            </video>
+            <LazyImage src={asset('assets/img/gifs/05_fish.gif')}/>
           </div>
 
           <div className="PlasticSource PlasticSource--margin-left-160 PlasticSource--align-left">
-            <video autoPlay playsInline loop muted className="PlasticSource__video">
-              <source src={asset('assets/vid/6.mp4')} type="video/mp4"/>
-              Your browser does not support HTML5 video.
-            </video>
+            <LazyImage src={asset('assets/img/gifs/06_chopchop.gif')}/>
             <div className="PlasticSource__text">
               Having made their way into the food chain through fish and other aquatic animals, the tiny plastic fibers
               ultimately end up on our dinner plates.
