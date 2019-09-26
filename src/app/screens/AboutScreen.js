@@ -130,21 +130,21 @@ export default class AboutScreen extends BaseScreen {
       </Section>
 
       <Section className="Section--auto-height Section--blue-100 pb-40px">
-        <div className="max-width-760 pt-40px">
-          <div className="Paragraph__content">
+        <div className="Section__container">
+          <div className="Paragraph__content max-width-760 pt-40px">
             One of the world's great rivers, loved, exploited, powerful but vulnerable, is a test case for our ability
             to cooperate and to nurture, rather than destroy our natural environment.
-          </div>
 
-          <div className="Byline mt-50px">
-            <div className="Byline__text--small">
-              Written by <b>Simon Morris</b><br/>
-              Video by <b>Une Herzer</b> & <b>Kieran Lefort</b><br/>
-              Contributions from <b>Patrick O'Donnell</b><br/>
+            <div className="Byline mt-50px">
+              <div className="Byline__text--small">
+                Written by <b>Simon Morris</b><br/>
+                Video by <b>Une Herzer</b> & <b>Kieran Lefort</b><br/>
+                Contributions from <b>Patrick O'Donnell</b><br/>
+              </div>
+              <ShareIcons url={location.href} title={document.title} />
             </div>
-            <ShareIcons url={location.href} title={document.title} />
+            
           </div>
-
         </div>
       </Section>
 

@@ -160,21 +160,23 @@ export default class MicroPlasticScreen extends BaseScreen {
           />
         </div>
 
-        <div className="max-width-970 mt-50px">
-          <span className="quote-open-type-2 primary">“</span>
-          <h2 className="type-h2 type-quote primary">
-            Surface runoff and sewage treatment plants can be major sources of microplastics”
-          </h2>
-          <div className="quote-author primary mt-30px">
-            Gabor Bordos
-          </div>
-          <div className="quote-author-position mt-10px">
-            Wessling Knowledge Center, Budapest
+        <div className="Section__container mb-40px">
+          <div className="max-width-970 mt-50px">
+            <span className="quote-open-type-2 primary">“</span>
+            <h2 className="type-h2 type-quote primary">
+              Surface runoff and sewage treatment plants can be major sources of microplastics”
+            </h2>
+            <div className="quote-author primary mt-30px">
+              Gabor Bordos
+            </div>
+            <div className="quote-author-position mt-10px">
+              Wessling Knowledge Center, Budapest
+            </div>
           </div>
         </div>
       </Section>
 
-      <Section className="Section--auto-height mt-50px">
+      <Section className="Section--auto-height mt-30px">
         <div className="Section__container">
           <div className="max-width-1257 Section--flex px-50px px-mobile-0">
             <div className="Section__column Section__column--desktop-65">
@@ -383,7 +385,7 @@ export default class MicroPlasticScreen extends BaseScreen {
 
             <div className="Paragraph mt-30px">
 
-              <div className="Quote Quote--max-width-530">
+              <div className="Quote Quote--max-width-530 mb-40px">
                 <span className="quote-open-type-2 primary">“</span>
                 <h2 className="type-h2 type-alert primary">
                   It’s not as simple as<br className="br-desktop"/>

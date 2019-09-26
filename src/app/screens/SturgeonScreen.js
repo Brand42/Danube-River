@@ -252,64 +252,67 @@ export default class SturgeonScreen extends BaseScreen {
           />
         </div>
 
-        <div className="max-width-760 mb-80px">
-          <div className="Paragraph mt-80px">
-            <div className="Paragraph__content Paragraph--v2">
-              Despite this, the illegal elements of the trade didn't stop, they mutated. The caviar mafia utilized its
-              network of professional poachers and opportunistic fishermen to catch “wild sturgeon” – often considered a
-              better quality by consumers – once again threatening the existence of the Danube dinosaur.
-            </div>
-          </div>
-
-          <div className="Paragraph mt-30px">
-            <div className="Quote Quote--max-width-530">
-              <span className="quote-open-type-2 primary">“</span>
-              <h2 className="type-h2 type-alert primary">
-                In the caviar trade, there is an illegal part and a legal part and it is very hard to distinguish
-                between the two”
-              </h2>
-              <div className="quote-author quote-author--type-2 primary mt-10px">
-                JUTTA JAHRL
-              </div>
-              <div className="quote-author-position black mt-10px">
-                Sturgeon project leader for WWF Austria
+        <div className="Section__container">
+          <div className="max-width-760 mb-80px">
+            <div className="Paragraph mt-80px">
+              <div className="Paragraph__content Paragraph--v2">
+                Despite this, the illegal elements of the trade didn't stop, they mutated. The caviar mafia utilized its
+                network of professional poachers and opportunistic fishermen to catch “wild sturgeon” – often considered a
+                better quality by consumers – once again threatening the existence of the Danube dinosaur.
               </div>
             </div>
 
-            <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-left">
-              “The production of a kilogram of caviar incurs a 90 percent cost compared with the retail price, so our
-              margin of profit is very thin,” Maereanu bemoans. “The poachers obtain their caviar by destroying the wild
-              species of the Danube, at zero investment, so they can afford to undercut our prices by a landslide.”
-              <br/>
-              <br/>
-              Due to the opacity of the market, it is almost impossible to know how much illegally sourced caviar is
-              being produced and consumed. According to Jutta Jahrl, sturgeon project leader for the World Wildlife
-              Federation (WWF) Austria: “In the caviar trade, there is an illegal part and a legal part and it is very
-              hard to distinguish between the two.”
-              <br/>
-              <br/>
-              While aquacultural farms were initially hailed as a solution for the industry, some are reportedly
-              providing cover for the caviar mafia. TRAFFIC, the wildlife trade monitoring network, produced a report on
-              caviar, which notes that certain farms work with poachers “informing them when the restocking takes place
-              and when not to poach to be able to prove restocking has occurred.”
-              <br/>
-              <br/>
-            </div>
-          </div>
+            <div className="Paragraph mt-30px">
+              <div className="Quote Quote--max-width-530 mb-40px">
+                <span className="quote-open-type-2 primary">“</span>
+                <h2 className="type-h2 type-alert primary">
+                  In the caviar trade, there is an illegal part and a legal part and it is very hard to distinguish
+                  between the two”
+                </h2>
+                <div className="quote-author quote-author--type-2 primary mt-10px">
+                  JUTTA JAHRL
+                </div>
+                <div className="quote-author-position black mt-10px">
+                  Sturgeon project leader for WWF Austria
+                </div>
+              </div>
 
-          <div className="Paragraph">
-            <div className="Paragraph__content Paragraph--v2">
-              Poaching along the Danube takes many forms – often those involved are far from mafiosi, but rather
-              impoverished or opportunistic locals who have for generations lived off the sturgeon and its eggs.
-              <br/>
-              <br/>
-              A handful of rangers patrol the Danube’s many waterways that emanate from the river’s mouth. They search
-              the small fishing boats – often no bigger than dinghies – for signs of sturgeon. “Sometimes they aren't
-              happy … They have to understand this is how our relationship should go,” says ranger Stamart Katalin.
-              “They understand that this is our job to control them and they know they have to be legal.”
+              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-left">
+                “The production of a kilogram of caviar incurs a 90 percent cost compared with the retail price, so our
+                margin of profit is very thin,” Maereanu bemoans. “The poachers obtain their caviar by destroying the wild
+                species of the Danube, at zero investment, so they can afford to undercut our prices by a landslide.”
+                <br/>
+                <br/>
+                Due to the opacity of the market, it is almost impossible to know how much illegally sourced caviar is
+                being produced and consumed. According to Jutta Jahrl, sturgeon project leader for the World Wildlife
+                Federation (WWF) Austria: “In the caviar trade, there is an illegal part and a legal part and it is very
+                hard to distinguish between the two.”
+                <br/>
+                <br/>
+                While aquacultural farms were initially hailed as a solution for the industry, some are reportedly
+                providing cover for the caviar mafia. TRAFFIC, the wildlife trade monitoring network, produced a report on
+                caviar, which notes that certain farms work with poachers “informing them when the restocking takes place
+                and when not to poach to be able to prove restocking has occurred.”
+                <br/>
+                <br/>
+              </div>
+            </div>
+
+            <div className="Paragraph">
+              <div className="Paragraph__content Paragraph--v2">
+                Poaching along the Danube takes many forms – often those involved are far from mafiosi, but rather
+                impoverished or opportunistic locals who have for generations lived off the sturgeon and its eggs.
+                <br/>
+                <br/>
+                A handful of rangers patrol the Danube’s many waterways that emanate from the river’s mouth. They search
+                the small fishing boats – often no bigger than dinghies – for signs of sturgeon. “Sometimes they aren't
+                happy … They have to understand this is how our relationship should go,” says ranger Stamart Katalin.
+                “They understand that this is our job to control them and they know they have to be legal.”
+              </div>
             </div>
           </div>
         </div>
+
         <div className="Image mt-80px">
           <Video
             showMuteButton={false}
@@ -389,9 +392,9 @@ export default class SturgeonScreen extends BaseScreen {
           />
         </div>
 
-        <div className="max-width-760">
+        <div className="Section__container">
           <div className="Paragraph mt-80px">
-            <div className="Paragraph__content Paragraph--v2 mt-50px">
+            <div className="Paragraph__content Paragraph--v2 max-width-760 mt-50px">
               Much of Jahrl’s work involves distinguishing poached caviar sold at market. “We found there are parts of
               the legal industry that are whitewashing the illegal part … They get caviar from poached sturgeon, put it
               in tins of a bigger producer, put a nice label on it and then sell it. For the consumer, then, it is very
@@ -416,7 +419,7 @@ export default class SturgeonScreen extends BaseScreen {
             </div>
 
             <div className="Paragraph mt-30px">
-              <div className="Quote Quote--max-width-530">
+              <div className="Quote Quote--max-width-530 mb-40px">
                 <span className="quote-open-type-2 primary">“</span>
                 <h2 className="type-h2 type-alert primary">
                   The same routes and networks used to smuggle caviar are also used to bring drugs or weapons into the

@@ -91,7 +91,7 @@ export default class MicroPlasticScreen extends BaseScreen {
 
             <div className="Paragraph mt-30px d-flex flex-sm-direction-column">
 
-              <div className="Quote Quote--max-width-530 flex-order-2 flex-order-lg-1">
+              <div className="Quote Quote--max-width-530 flex-order-2 flex-order-lg-1  mb-40px">
                 <span className="quote-open-type-2 primary">“</span>
                 <h2 className="type-h2 type-alert primary">
                   In a normal ecosystem, you have a species above the jackal and that species is the wolf. Nobody likes
