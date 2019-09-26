@@ -1,5 +1,9 @@
 .Video {
   position: relative;
+  .video-react {
+    width: 100% !important;
+    height: auto !important;
+  }
 
   &--no-skin {
     .video-react-big-play-button, .video-react-control-bar {
@@ -11,7 +15,18 @@
     }
   }
 
+  &__poster {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+
   .video-react-big-play-button {
+    position: absolute;
+    pointer-events: none;
     $size: 148px;
     top: 0;
     right: 0;
@@ -26,6 +41,7 @@
     background-position: 50%;
     width: $size;
     height: $size;
+    z-index: 20;
 
     &:before {
       display: none;

@@ -71,9 +71,10 @@ export default class Hero extends Component {
         <Video
           src={this.props.video}
           muted
-          autoPlay
+          autoPlay={true}
           noSkin
           loop={this.props.videoLoop}
+          controls={false}
         />
       )}
 
