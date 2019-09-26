@@ -81,7 +81,7 @@ export default class MicroPlasticScreen extends BaseScreen {
 
         <div className="Section__container">
           <div className="max-width-760">
-            <div className="Paragraph mb-50px mt-80px">
+            <div className="Paragraph mb-50px mt-50px">
               <div className="Paragraph__content">
                 In addition to supplying renewable carbon-free electricity to millions living along the river’s path,
                 dams have increased the ability to navigate the Danube – allowing boats to carry freight in place of
@@ -94,7 +94,7 @@ export default class MicroPlasticScreen extends BaseScreen {
             </div>
           </div>
         </div>
-        <div className="Image mt-30px">
+        <div className="Image mt-50px">
           <Video
             showMuteButton={false}
             showPlayButton={true}
