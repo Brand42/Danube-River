@@ -164,7 +164,7 @@ export default class SturgeonScreen extends BaseScreen {
               </div>
             </div>
           </div>
-          
+
           <div className="text-center">
             <LazyImage src={asset('assets/img/fish.png')} className="img-fluid"/>
           </div>
@@ -320,7 +320,7 @@ export default class SturgeonScreen extends BaseScreen {
         </div>
 
         <div className="Section__container">
-          <div className="max-width-760">
+          <div className="max-width-760 mt-50px">
             <div className="Quote Quote--relative">
               <span className="quote-open-type-2 primary">“</span>
               <h2 className="type-h2 type-alert primary">
