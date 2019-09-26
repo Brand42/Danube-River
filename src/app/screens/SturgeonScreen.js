@@ -157,19 +157,14 @@ export default class SturgeonScreen extends BaseScreen {
                 Today, caviar retains a luxury status as the food of the rich and famous, but it wasn’t always so.
                 During the 19th century, sturgeon were in such abundance across the east coast of the US that caviar
                 would be served as bar snacks, the peanuts of their day. While in Eastern Europe and the Caucasus,
-                caviar was
+                caviar was so plentiful farmers would use it as pig feed and mothers gave it to their sick children as medicine.
+                <h4 className="type-h4 mt-30px">
+                  Biggest sturgeon ever caught was 1,571kg and 7.2m long.
+                </h4>
               </div>
-            </div>
-
-            <div className="Paragraph mb-50px">
-              <div className="Paragraph__content Paragraph--v2">
-                so plentiful farmers would use it as pig feed and mothers gave it to their sick children as medicine.
-              </div>
-              <h4 className="type-h4 mt-30px">
-                Biggest sturgeon ever caught was 1,571kg and 7.2m long.
-              </h4>
             </div>
           </div>
+          
           <div className="text-center">
             <LazyImage src={asset('assets/img/fish.png')} className="img-fluid"/>
           </div>
