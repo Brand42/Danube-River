@@ -409,7 +409,7 @@ export default class Mila23Screen extends BaseScreen {
                 </div>
               </div>
 
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-left">
+              <div className="Paragraph__content Paragraph--v2">
                 But Pavel warned the future is still uncertain because of young people leaving the area. “Many don’t
                 come back … only to visit their families. And so there are some hotels which brought in workers from
                 abroad, Indians or [other] nations. It’s hard to find staff these days.”

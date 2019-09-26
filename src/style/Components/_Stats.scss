@@ -1,11 +1,12 @@
 .Stats {
-  position: absolute;
+  float: left;
   max-width: 366px;
   margin-left: -230px;
   font-weight: 500;
+  margin-right: 24px;
 
   @include mobile {
-    position: relative;
+    float: none;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -15,7 +16,7 @@
   &__number {
     display: inline-block;
     font-size: rem(55px);
-    line-height: rem(68px);
+    line-height: 3.5rem;
     color: $primary;
     letter-spacing: 1.2px;
     font-family: "Aktiv GroteskEx Bd", sans-serif;
@@ -30,7 +31,7 @@
   }
 
   &--v2 {
-    position: relative;
+    float: none;
     margin-left: initial;
     @include mobile {
       text-align: left;
@@ -59,7 +60,7 @@
   }
 
   &--v3 {
-    position: relative;
+    float: none;
     margin-left: initial;
     max-width: 100%;
     font-weight: bold;

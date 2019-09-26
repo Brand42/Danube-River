@@ -89,7 +89,7 @@ export default class MicroPlasticScreen extends BaseScreen {
               </div>
             </div>
 
-            <div className="Paragraph mt-30px d-flex flex-sm-direction-column">
+            <div className="Paragraph mt-30px">
 
               <div className="Quote Quote--max-width-530 flex-order-2 flex-order-lg-1  mb-40px">
                 <span className="quote-open-type-2 primary">“</span>
@@ -105,7 +105,7 @@ export default class MicroPlasticScreen extends BaseScreen {
                 </div>
               </div>
 
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-left flex-order-1 flex-order-lg-2">
+              <div className="Paragraph__content Paragraph--v2 flex-order-1 flex-order-lg-2">
                 Rewilding Europe has chosen the delta as a showcase for its work. Despite being located between three
                 countries with very different governments and various communities, Saavedra believes they can create a
                 complete ecosystem that can be resistant to climate change.
@@ -365,7 +365,7 @@ export default class MicroPlasticScreen extends BaseScreen {
                   of the region’s wetlands and floodplains have been destroyed since the 20th century
                 </div>
               </div>
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-right">
+              <div className="Paragraph__content Paragraph--v2">
                 The delta offers a spectrum of biodiverse habitats including marshes and submerged riverine forests,
                 which are home to the largest number of fish species in the continent, according to Rewilding Europe.
                 Prodigious amounts of frogs dot the lilypads, while snakes make S-shaped creases in the flat surface of
@@ -434,7 +434,7 @@ export default class MicroPlasticScreen extends BaseScreen {
                   Wetland equivalent in size to 15,000 football pitches is being restored each year
                 </div>
               </div>
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-right">
+              <div className="Paragraph__content Paragraph--v2">
                 The Rewilding Danube Delta team in Romania and Ukraine is working on a five-year cross-border project to
                 upscale rewilding in the region. This involves restoring wetland equivalent in size to 15,000 football
                 pitches a year, using natural processes such as flooding and grazing.

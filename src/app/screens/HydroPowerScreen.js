@@ -138,7 +138,7 @@ export default class MicroPlasticScreen extends BaseScreen {
                 <div className="Stats__text">There is an average of one dam</div>
                 <div className="Stats__text">every 16km along the first 1,000km of the Danube</div>
               </div>
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-right">
+              <div className="Paragraph__content Paragraph--v2">
                 After Slovakia’s capital Bratislava you enter the slower flowing Middle Danube where you’ll meet the
                 Gabcikovo Dam and then, at the Romanian border with Serbia, the massive Iron Gates I and II, which
                 generate 37 percent of Serbia’s power and 27 percent of Romania’s.
@@ -192,7 +192,7 @@ export default class MicroPlasticScreen extends BaseScreen {
                 </div>
               </div>
 
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-left mt-30px">
+              <div className="Paragraph__content Paragraph--v2 mt-30px">
                 “Very few stretches can still be characterized as free-flowing,” is the bleak assessment of the
                 International Commission for the Protection of the Danube River, the multi-country body set up by treaty
                 to look after the waterway.
