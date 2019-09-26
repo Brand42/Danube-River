@@ -125,6 +125,10 @@ export default class Mila23Screen extends BaseScreen {
                 ecotourism industry have made it more accessible – since 2018, the Danube can even be explored in
                 Google’s
                 Street View.
+                <br/>
+                <br/>
+                That has not been welcomed news for all. As Vassili puts it, there are now too many people for too few
+                fish.
               </div>
             </div>
           </div>
@@ -133,16 +137,6 @@ export default class Mila23Screen extends BaseScreen {
 
       <Section className="Section--auto-height">
         <div className="Image mt-50px">
-          <div className="max-width-760">
-            <div className="Paragraph__content">
-              That has not been welcomed news for all. As Vassili puts it, there are now too many people for too few
-              fish.
-            </div>
-          </div>
-
-          <br/>
-          <br/>
-
           <Video
             showMuteButton={false}
             showPlayButton={true}
@@ -401,7 +395,7 @@ export default class Mila23Screen extends BaseScreen {
 
             <div className="Paragraph mt-30px">
 
-              <div className="Quote Quote--max-width-530">
+              <div className="Quote Quote--max-width-530 mb-40px">
                 <span className="quote-open-type-2 white">“</span>
                 <h2 className="type-h2 type-alert white">
                   Many people come here and discover it’s not for them. It’s very remote, there are no cars, no tarmac,

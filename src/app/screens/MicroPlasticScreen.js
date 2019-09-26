@@ -385,7 +385,7 @@ export default class MicroPlasticScreen extends BaseScreen {
 
             <div className="Paragraph mt-30px">
 
-              <div className="Quote Quote--max-width-530">
+              <div className="Quote Quote--max-width-530 mb-40px">
                 <span className="quote-open-type-2 primary">“</span>
                 <h2 className="type-h2 type-alert primary">
                   It’s not as simple as<br className="br-desktop"/>

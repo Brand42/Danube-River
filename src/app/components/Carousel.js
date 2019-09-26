@@ -73,7 +73,7 @@ export default class Carousel extends React.Component {
           ))}
         </Slider>
 
-        <div className="carouse-content">
+        <div className="Section__container">
           {this.props.imagesData[this.state.activeIndex].content && this.props.imagesData[this.state.activeIndex].content}
         </div>
       </div>
