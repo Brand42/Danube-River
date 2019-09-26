@@ -392,9 +392,9 @@ export default class SturgeonScreen extends BaseScreen {
           />
         </div>
 
-        <div className="max-width-760">
+        <div className="Section__container">
           <div className="Paragraph mt-80px">
-            <div className="Paragraph__content Paragraph--v2 mt-50px">
+            <div className="Paragraph__content Paragraph--v2 max-width-760 mt-50px">
               Much of Jahrl’s work involves distinguishing poached caviar sold at market. “We found there are parts of
               the legal industry that are whitewashing the illegal part … They get caviar from poached sturgeon, put it
               in tins of a bigger producer, put a nice label on it and then sell it. For the consumer, then, it is very
@@ -419,7 +419,7 @@ export default class SturgeonScreen extends BaseScreen {
             </div>
 
             <div className="Paragraph mt-30px">
-              <div className="Quote Quote--max-width-530">
+              <div className="Quote Quote--max-width-530 mb-40px">
                 <span className="quote-open-type-2 primary">“</span>
                 <h2 className="type-h2 type-alert primary">
                   The same routes and networks used to smuggle caviar are also used to bring drugs or weapons into the
