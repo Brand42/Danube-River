@@ -26,7 +26,7 @@ export default {
       id: 'sturgeon',
       title: 'Sturgeon',
       intro: 'Caviar mafia vs Danube dinosaur',
-      description: 'For more than 200 million years, sturgeon have lurked beneath the waters of Earth, witnessing the demise of dinosaurs and human evolution. The Danube long boasted one of the largest populations of the living fossil, but it is now under threat of extinction from dams, pollution and overfishing. Conservationists are working to save the species and are fighting an ongoing battle with the “caviar mafia,” which leads the illegal trade in the fish’s eggs.',
+      description: "For more than 200 million years, sturgeon have lurked beneath the waters of Earth, witnessing the demise of dinosaurs and human evolution. \n\nThe Danube long boasted one of the largest populations of the living fossil, but it is now under threat of extinction from dams, pollution and overfishing. Conservationists are working to save the species and are fighting an ongoing battle with the “caviar mafia”, which leads the illegal trade in the fish’s eggs.",
       x: 90,
       y: 136,
       images: [
@@ -54,7 +54,7 @@ export default {
       id: 'microplastics',
       title: 'Microplastics',
       intro: "Small thing,\nbig problem",
-      description: 'Media images of bags and bottles drifting in the sea or tangled birds have made the fight against plastic waste emblematic of last-ditch attempts to reverse the damage inflicted by the economy of consumption. However, the invisible pollution caused by tiny plastic particles is harder to address and could prove more harmful in every corner of the Earth. From the way we wash and eat to what we wear, everyone has a part to play.',
+      description: 'Media images of bags and bottles drifting in the sea or tangled birds have made the fight against plastic waste emblematic of last-ditch attempts to reverse the damage inflicted by the economy of consumption. \n\nHowever, the invisible pollution caused by tiny plastic particles is harder to address and could prove more harmful in every corner of the Earth. From the way we wash and eat to what we wear, everyone has a part to play.',
       x: 170,
       y: 237,
       images: [
@@ -80,7 +80,7 @@ export default {
       id: 'hydropower',
       title: 'Hydropower',
       intro: 'The Dam Danube',
-      description: 'There are 62 dams along the length of the Danube, which turn the kinetic energy of water pounding off the Alps into electricity. The clean energy they generate was once lauded as the epitome of a new relationship between humans and the environment. But today, their impact is judged by more than carbon dioxide emissions. Fish, birds, soil quality and water pollution are all heavily influenced, often negatively by obstructions to the river’s flow.',
+      description: 'There are 62 dams along the length of the Danube, which turn the kinetic energy of water pounding off the Alps into electricity. The clean energy they generate was once lauded as the epitome of a new relationship between humans and the environment. \n\nBut today, their impact is judged by more than carbon dioxide emissions. Fish, birds, soil quality and water pollution are all heavily influenced, often negatively by obstructions to the river’s flow.',
       x: 410,
       y: 146,
       images: [
@@ -108,7 +108,7 @@ export default {
       id: 'rewilding',
       title: 'Rewilding',
       intro: 'Back from the dead',
-      description: 'Where the Danube flows into the Black Sea lies Europe’s largest wetland. It is one of the most underpopulated areas of the continent. Here, animals that have been absent from the region for hundreds of years are being reintroduced in a bid to restore a balanced ecosystem. Moreover, where some important species became extinct in the 1700s, scientists have created the next best thing through “back breeding” to repopulate the area.',
+      description: 'Where the Danube flows into the Black Sea lies Europe’s largest wetland. It is one of the most underpopulated areas of the continent. \n\nHere, animals that have been absent from the region for hundreds of years are being reintroduced in a bid to restore a balanced ecosystem. Moreover, where some important species became extinct in the 1700s, scientists have created the next best thing through “back breeding” to repopulate the area.',
       x: 170,
       y: 146,
       images: [
@@ -134,7 +134,7 @@ export default {
       id: 'mila-23',
       title: 'Mila 23',
       intro: 'Life of the island people',
-      description: 'The Danube is sanctuary to a mosaic of minorities who escaped from neighbouring countries for fear of persecution centuries ago. Notable are the Lipovans from Russia, they are expert fishermen and canoeists, but these traditions are being threatened by environmental changes and a growing tourism sector. In an increasingly connected world, the livelihood of these river people is contingent on their ability to adapt to modern changes, while living in harmony with nature.',
+      description: 'The Danube is sanctuary to a mosaic of minorities who escaped from neighbouring countries for fear of persecution centuries ago. \n\nNotable are the Lipovans from Russia, they are expert fishermen and canoeists, but these traditions are being threatened by environmental changes and a growing tourism sector. In an increasingly connected world, the livelihood of these river people is contingent on their ability to adapt to modern changes, while living in harmony with nature.',
       images: [
         asset('assets/img/articles/4.png'),
       ],
