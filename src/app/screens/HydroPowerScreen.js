@@ -146,8 +146,7 @@ export default class MicroPlasticScreen extends BaseScreen {
 
               <div className="Stats d-desktop-none text-left mt-30px mb-0">
                 <div className="Stats__number">16<span className="Stats--small-type-2">km</span></div>
-                <div className="Stats__text">There is an average of one dam</div>
-                <div className="Stats__text">every 16km along the Danube</div>
+                <div className="Stats__text">There is an average of one dam every 16km along the Danube</div>
               </div>
 
             </div>

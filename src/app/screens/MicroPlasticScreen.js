@@ -347,9 +347,7 @@ export default class MicroPlasticScreen extends BaseScreen {
             <div className="Paragraph mt-30px">
               <div className="Stats">
                 <div className="Stats__number">11,000</div>
-                <div className="Stats__text">Number of microplastics the</div>
-                <div className="Stats__text">average European shellfish</div>
-                <div className="Stats__text">consumer will ingest each year</div>
+                <div className="Stats__text">Number of microplastics the average European shellfish consumer will ingest each year</div>
               </div>
               <div className="Paragraph__content Paragraph--v2">
                 Wright, in a submission to the British House of Commons inquiry into the issue, says these findings
@@ -370,10 +368,9 @@ export default class MicroPlasticScreen extends BaseScreen {
 
         <div className="Section__container">
           <div className="max-width-760 mb-80px">
-            <div className="Paragraph mt-80px">
+            <div className="Paragraph mt-30px">
               <div className="Paragraph__content">
-                But there is still much to learn about the overall impact on the Danube and a full-scale survey of
-                microplastics along the length of the river is under way. It is a multinational effort, with an aim to define the problem.
+                But there is still much to learn about the overall impact on the Danube and a full-scale survey of microplastics along the length of the river is under way. It is a multinational effort, with an aim to define the problem.
               </div>
 
 
@@ -406,7 +403,7 @@ export default class MicroPlasticScreen extends BaseScreen {
               <div className="Stats__number Stats--big">300,000<span className="Stats--small">tons</span></div>
             </div>
 
-            <h4 className="type-h4 mt-30px mb-30px">Up to this amount of microplastics are emitted in the EU every
+            <h4 className="type-h4 mt-30px mb-20px">Up to this amount of microplastics are emitted in the EU every
               year</h4>
             <div className="Paragraph">
               <div className="Paragraph__content Paragraph--v2">

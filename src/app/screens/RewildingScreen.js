@@ -440,17 +440,13 @@ export default class MicroPlasticScreen extends BaseScreen {
                 pitches a year, using natural processes such as flooding and grazing.
                 <br/>
                 <br/>
-                Although rewilding across the world is still in its infancy, these ambitious
+                Although rewilding across the world is still in its infancy, these ambitious projects in the Danube Delta have gone a long way to restoring its vast, diverse habitat. And, as the
+                return of the beaver demonstrates, soon the conservationists will be able to step back and allow nature
+                to manage itself.
               </div>
             </div>
 
             <div className="Paragraph">
-              <div className="Paragraph__content Paragraph--v2">
-                projects in the Danube Delta have gone a long way to restoring its vast, diverse habitat. And, as the
-                return of the beaver demonstrates, soon the conservationists will be able to step back and allow nature
-                to manage itself.
-              </div>
-
               <div className="Byline mt-50px">
                 <div className="Byline__text--small">
                   Written by <b>Elizabeth Mearns</b> & <b>Simon Morris</b><br/>
