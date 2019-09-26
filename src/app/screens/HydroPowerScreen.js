@@ -81,7 +81,7 @@ export default class MicroPlasticScreen extends BaseScreen {
 
         <div className="Section__container">
           <div className="max-width-760">
-            <div className="Paragraph mb-50px mt-80px">
+            <div className="Paragraph mb-50px mt-50px">
               <div className="Paragraph__content">
                 In addition to supplying renewable carbon-free electricity to millions living along the river’s path,
                 dams have increased the ability to navigate the Danube – allowing boats to carry freight in place of
@@ -94,7 +94,7 @@ export default class MicroPlasticScreen extends BaseScreen {
             </div>
           </div>
         </div>
-        <div className="Image mt-30px">
+        <div className="Image mt-50px">
           <Video
             showMuteButton={false}
             showPlayButton={true}
@@ -138,7 +138,7 @@ export default class MicroPlasticScreen extends BaseScreen {
                 <div className="Stats__text">There is an average of one dam</div>
                 <div className="Stats__text">every 16km along the first 1,000km of the Danube</div>
               </div>
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-right">
+              <div className="Paragraph__content Paragraph--v2">
                 After Slovakia’s capital Bratislava you enter the slower flowing Middle Danube where you’ll meet the
                 Gabcikovo Dam and then, at the Romanian border with Serbia, the massive Iron Gates I and II, which
                 generate 37 percent of Serbia’s power and 27 percent of Romania’s.
@@ -146,8 +146,7 @@ export default class MicroPlasticScreen extends BaseScreen {
 
               <div className="Stats d-desktop-none text-left mt-30px mb-0">
                 <div className="Stats__number">16<span className="Stats--small-type-2">km</span></div>
-                <div className="Stats__text">There is an average of one dam</div>
-                <div className="Stats__text">every 16km along the Danube</div>
+                <div className="Stats__text">There is an average of one dam every 16km along the Danube</div>
               </div>
 
             </div>
@@ -192,7 +191,7 @@ export default class MicroPlasticScreen extends BaseScreen {
                 </div>
               </div>
 
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-left mt-30px">
+              <div className="Paragraph__content Paragraph--v2 mt-30px">
                 “Very few stretches can still be characterized as free-flowing,” is the bleak assessment of the
                 International Commission for the Protection of the Danube River, the multi-country body set up by treaty
                 to look after the waterway.

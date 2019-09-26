@@ -38,6 +38,10 @@
   @include fluid-attr("margin-bottom", 5px, 30px);
 }
 
+.mb-20px {
+  @include fluid-attr("margin-bottom", 20px, 20px);
+}
+
 .mb-40px {
   @include fluid-attr("margin-bottom", 40px, 40px);
 }

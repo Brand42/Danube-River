@@ -55,7 +55,7 @@ export default class AboutScreen extends BaseScreen {
                   Longest river and the world's most international
                 </div>
               </div>
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-right">
+              <div className="Paragraph__content Paragraph--v2">
                 When it reaches the Black Sea coast 2,860 kilometers later it’s only 300 kilometers further south, so
                 its overall direction is gently south of east.
                 <br/>

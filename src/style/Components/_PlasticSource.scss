@@ -35,7 +35,8 @@
       font-family: "Aktiv GroteskEx Bd", sans-serif;
       font-size: rem(16px);
       line-height: rem(27px);
-      padding-left: 0;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
       margin: 20px 0;
     }
   }

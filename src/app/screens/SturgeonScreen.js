@@ -68,7 +68,7 @@ export default class SturgeonScreen extends BaseScreen {
                   Sturgeon can live to more than 100 years old
                 </div>
               </div>
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-right">
+              <div className="Paragraph__content Paragraph--v2">
                 These huge fish can live for 100 years, so as you walk with her around the two large pounds holding her
                 biggest fish, she can point out individuals such as “Mr Moustache,” who was named by her daughter.
               </div>
@@ -76,7 +76,7 @@ export default class SturgeonScreen extends BaseScreen {
           </div>
         </div>
         <div className="text-center">
-          <LazyImage src={asset('assets/img/img15.jpg')} className="img-fluid mt-80px"/>
+          <LazyImage src={asset('assets/img/img15.jpg')} className="img-fluid mt-30px"/>
         </div>
         <div className="Section__container">
 
@@ -147,7 +147,7 @@ export default class SturgeonScreen extends BaseScreen {
                   more than $110,000 per kilo.
                 </div>
               </div>
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-right">
+              <div className="Paragraph__content Paragraph--v2">
                 In an attempt to conserve the species, fishing bans, first introduced by Ukraine then by Romania and
                 Bulgaria, have been enforced. But with the bans came the poachers – opportunistic fishermen and
                 organized criminals, working together to catch sturgeon, driven by the huge profits to be made from the
@@ -157,19 +157,14 @@ export default class SturgeonScreen extends BaseScreen {
                 Today, caviar retains a luxury status as the food of the rich and famous, but it wasn’t always so.
                 During the 19th century, sturgeon were in such abundance across the east coast of the US that caviar
                 would be served as bar snacks, the peanuts of their day. While in Eastern Europe and the Caucasus,
-                caviar was
+                caviar was so plentiful farmers would use it as pig feed and mothers gave it to their sick children as medicine.
+                <h4 className="type-h4 mt-30px mb-30px">
+                  Biggest sturgeon ever caught was 1,571kg and 7.2m long.
+                </h4>
               </div>
-            </div>
-
-            <div className="Paragraph mb-50px">
-              <div className="Paragraph__content Paragraph--v2">
-                so plentiful farmers would use it as pig feed and mothers gave it to their sick children as medicine.
-              </div>
-              <h4 className="type-h4 mt-30px">
-                Biggest sturgeon ever caught was 1,571kg and 7.2m long.
-              </h4>
             </div>
           </div>
+
           <div className="text-center">
             <LazyImage src={asset('assets/img/fish.png')} className="img-fluid"/>
           </div>
@@ -277,7 +272,7 @@ export default class SturgeonScreen extends BaseScreen {
                 </div>
               </div>
 
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-left">
+              <div className="Paragraph__content Paragraph--v2">
                 “The production of a kilogram of caviar incurs a 90 percent cost compared with the retail price, so our
                 margin of profit is very thin,” Maereanu bemoans. “The poachers obtain their caviar by destroying the wild
                 species of the Danube, at zero investment, so they can afford to undercut our prices by a landslide.”
@@ -325,7 +320,7 @@ export default class SturgeonScreen extends BaseScreen {
         </div>
 
         <div className="Section__container">
-          <div className="max-width-760">
+          <div className="max-width-760 mt-50px">
             <div className="Quote Quote--relative">
               <span className="quote-open-type-2 primary">“</span>
               <h2 className="type-h2 type-alert primary">
@@ -356,7 +351,7 @@ export default class SturgeonScreen extends BaseScreen {
                   Price of a kilo of caviar on the black market
                 </div>
               </div>
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-right">
+              <div className="Paragraph__content Paragraph--v2">
                 Conservationists are sympathetic to the fishermen’s plight. “The real criminals are the ones paying the
                 fishermen to poach,” says Jahrl, who contributes to education programs aimed at encouraging them to
                 assist in the conservation of the sturgeon.
@@ -433,7 +428,7 @@ export default class SturgeonScreen extends BaseScreen {
                 </div>
               </div>
 
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-left">
+              <div className="Paragraph__content Paragraph--v2">
                 Natalia Gozack, Jahrl’s colleague at the WWF, based in Ukraine, reported that customs officers have
                 identified how caviar smuggling routes are also used to bring drugs or weapons into the EU. “To smuggle
                 the caviar is less risky, so the next day you smuggle drugs because you’ve tried this route and you know

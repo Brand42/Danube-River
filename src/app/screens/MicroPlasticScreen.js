@@ -347,11 +347,9 @@ export default class MicroPlasticScreen extends BaseScreen {
             <div className="Paragraph mt-30px">
               <div className="Stats">
                 <div className="Stats__number">11,000</div>
-                <div className="Stats__text">Number of microplastics the</div>
-                <div className="Stats__text">average European shellfish</div>
-                <div className="Stats__text">consumer will ingest each year</div>
+                <div className="Stats__text">Number of microplastics the average European shellfish consumer will ingest each year</div>
               </div>
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-right">
+              <div className="Paragraph__content Paragraph--v2">
                 Wright, in a submission to the British House of Commons inquiry into the issue, says these findings
                 reflect the energy spent trying to digest indigestible plastic. And if you think it’s unlikely you have
                 eaten microplastics, think again. According to Wright: “It has been estimated that the average European
@@ -359,13 +357,7 @@ export default class MicroPlasticScreen extends BaseScreen {
                 <br/>
                 <br/>
                 And it is an ongoing problem – even if all production were ended tomorrow. A significant proportion of
-                microplastics in rivers and the oceans enter via
-              </div>
-            </div>
-
-            <div className="Paragraph">
-              <div className="Paragraph__content Paragraph--v2">
-                water-treatment plants and sewage works. Even if they don’t go straight back into the water system, they
+                microplastics in rivers and the oceans enter via water-treatment plants and sewage works. Even if they don’t go straight back into the water system, they
                 can end up being used by farmers to irrigate or fertilize their land. They then get eaten directly by
                 insects and animals, or washed by rain into rivers and back into the food chain there. Once they are
                 created, they are around for hundreds of years, travelling an ecologically unappetizing circle of life.
@@ -376,16 +368,13 @@ export default class MicroPlasticScreen extends BaseScreen {
 
         <div className="Section__container">
           <div className="max-width-760 mb-80px">
-            <div className="Paragraph mt-80px">
-              <div className="Paragraph__content Paragraph--v2">
-                But there is still much to learn about the overall impact on the Danube and a full-scale survey of
-                microplastics along the length of the river is under way. It is a multinational effort, with an aim to
-              </div>
-            </div>
-
             <div className="Paragraph mt-30px">
+              <div className="Paragraph__content">
+                But there is still much to learn about the overall impact on the Danube and a full-scale survey of microplastics along the length of the river is under way. It is a multinational effort, with an aim to define the problem.
+              </div>
 
-              <div className="Quote Quote--max-width-530 mb-40px">
+
+              <div className="Quote Quote--max-width-530 mb-20px">
                 <span className="quote-open-type-2 primary">“</span>
                 <h2 className="type-h2 type-alert primary">
                   It’s not as simple as<br className="br-desktop"/>
@@ -400,22 +389,11 @@ export default class MicroPlasticScreen extends BaseScreen {
                 </div>
               </div>
 
-              <div className="Paragraph__content Paragraph--v2 Paragraph--moved-to-left">
-                define the problem. It is hoped this will then inform the politicians taking decisions needed to
-                safeguard the river’s waters, which cut across more countries than any other in the world. Philipp
-                Hohenblum, a microplastics expert at the Environment Agency Austria and 35 of his colleagues have spent
-                every day for the past month collecting, testing and analyzing the Danube’s water. As he puts it: “It’s
-                not as simple as spotting a discarded fast-food wrapper.”
-                <br/>
-                <br/>
-                “Globally, around five to 13 million tons of macro and microplastics enter the oceans annually, of which
-                1.5
-              </div>
-            </div>
-
-            <div className="Paragraph">
               <div className="Paragraph__content Paragraph--v2">
-                million ton are microplastics. In the European Union (EU) some 75,000 to 300,000 tons of microplastics
+                It is hoped this will then inform the politicians taking decisions needed to safeguard the river’s waters, which cut across more countries than any other in the world. Philipp Hohenblum, a microplastics expert at the Environment Agency Austria and 35 of his colleagues have spent every day for the past month collecting, testing and analyzing the Danube’s water. As he puts it: “It’s not as simple as spotting a discarded fast-food wrapper.”
+                <br/>
+                <br/>
+                “Globally, around five to 13 million tons of macro and microplastics enter the oceans annually, of which 1.5 million ton are microplastics. In the European Union (EU) some 75,000 to 300,000 tons of microplastics
                 are emitted in the environment every year. Almost all of the microplastics come from land-based sources
                 by runoff or waste-water treatment, which end up in rivers and ultimately reach the oceans,” he says.
               </div>
@@ -424,7 +402,8 @@ export default class MicroPlasticScreen extends BaseScreen {
             <div className="Stats Stats--v2 mt-50px">
               <div className="Stats__number Stats--big">300,000<span className="Stats--small">tons</span></div>
             </div>
-            <h4 className="type-h4 mt-30px mb-30px">Up to this amount of microplastics are emitted in the EU every
+
+            <h4 className="type-h4 mt-30px mb-20px">Up to this amount of microplastics are emitted in the EU every
               year</h4>
             <div className="Paragraph">
               <div className="Paragraph__content Paragraph--v2">

@@ -1,6 +1,7 @@
 .Quote {
-  position: absolute;
-  right: -100px;
+  float: right;
+  margin-right: -200px;
+  margin-left: 24px;
   color: $dark-blue-color;
   font-size: rem(43px);
   line-height: rem(50px);
@@ -8,19 +9,19 @@
   font-family: "Aktiv GroteskEx Bd", sans-serif;
 
   &--relative {
-    position: relative;
+    float: none;
     right: 0;
     margin-right: 0;
   }
 
   @include mobile {
-    position: relative;
+    float: none;
     right: initial;
   }
 
   &--max-width-530 {
     max-width: 530px;
-    margin-right: -130px;
+    margin-right: -230px;
 
     @include mobile {
       margin-right: 0;
