@@ -68,7 +68,7 @@ export default class SturgeonScreen extends BaseScreen {
                   Sturgeon can live to more than 100 years old
                 </div>
               </div>
-              <div className="Paragraph__content Paragraph--v2">
+              <div className="Paragraph__content Paragraph--v2 pb-50px">
                 These huge fish can live for 100 years, so as you walk with her around the two large pounds holding her
                 biggest fish, she can point out individuals such as “Mr Moustache,” who was named by her daughter.
               </div>
