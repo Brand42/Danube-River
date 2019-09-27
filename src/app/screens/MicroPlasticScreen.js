@@ -333,7 +333,7 @@ export default class MicroPlasticScreen extends BaseScreen {
               <h4 className="type-h4 mb-30px">If these tiny pieces are small enough for fish, or people, to
                 eat without noticing, are they really a problem?</h4>
               <h4 className="type-h4 mb-30px">The answer is yes.</h4>
-              <div className="Paragraph__content Paragraph--v2 mt-80px">
+              <div className="Paragraph__content Paragraph--v2 mt-30px">
                 There are a growing number of scientific studies that agree on the issue.
                 <br/>
                 <br/>
