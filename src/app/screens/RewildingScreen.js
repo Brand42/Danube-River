@@ -373,13 +373,7 @@ export default class MicroPlasticScreen extends BaseScreen {
                 <br/>
                 <br/>
                 The camera-toting tourists witness the biggest reed bed in the world, which attracts the largest colony
-                of pelicans outside Africa – 2,500
-              </div>
-            </div>
-
-            <div className="Paragraph mb-50px">
-              <div className="Paragraph__content Paragraph--v2">
-                breeding pairs arriving every spring. They can be seen clustering in brilliant white clouds before
+                of pelicans outside Africa – 2,500 breeding pairs arriving every spring. They can be seen clustering in brilliant white clouds before
                 lumbering into the air to flap low over the reeds.
                 <br/>
                 <br/>
@@ -392,6 +386,7 @@ export default class MicroPlasticScreen extends BaseScreen {
                 dive repeatedly for fish offshore, while the ominous shadow of a hunting marsh harrier glides overhead.
               </div>
             </div>
+            
           </div>
 
         </div>

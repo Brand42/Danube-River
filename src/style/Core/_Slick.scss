@@ -121,14 +121,23 @@
 .slick-slider {
   width: 200%;
   margin-left: -50%;
+  &:before, &:after {
+    content: none !important;
+  }
 }
 
 .slick-prev {
   margin-left: 0;
   z-index: 1;
+  @include mobile {
+    display: none !important;
+  }
 }
 
 .slick-next {
   margin-right: 0;
   z-index: 1;
+  @include mobile {
+    display: none !important;
+  }
 }
