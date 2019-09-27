@@ -209,10 +209,6 @@ export default class Mila23Screen extends BaseScreen {
             />
           </div>
 
-          <div className="text-center mt-30px">
-            <LazyImage src={asset('assets/img/ivan.jpg')} className="img-fluid"/>
-          </div>
-
           <div className="max-width-960">
             <div className="Paragraph Paragraph--mw-100 mb-50px mt-80px">
               <div className="Paragraph__content">
