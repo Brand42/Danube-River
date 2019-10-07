@@ -23,7 +23,7 @@ export default class ShareIcons extends Component {
   render() {
     return (
       <div className="Byline__share">
-        Share:
+        { this.props.noText ? '' : <span>Share:</span> }
 
         <div className="Byline__share-button">
           <CopyToClipboard text={this.props.url}
