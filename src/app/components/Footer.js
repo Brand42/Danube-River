@@ -5,6 +5,7 @@ import {asset} from "../core/utils";
 import {Waypoint} from "react-waypoint";
 import LazyImage from "./LazyImage";
 import FormatText from "./FormatText";
+import ShareIcons from "./ShareIcons";
 
 @withRouter
 export default class Footer extends Component {
@@ -56,21 +57,7 @@ export default class Footer extends Component {
             #LifeofaRiver
           </div>
           <div className="Footer__social-links">
-            <a href="/" target="_blank">
-              <LazyImage src={asset('assets/img/social/link.svg')} alt="Share Link"/>
-            </a>
-            <a href="https://www.instagram.com/cgtn.europe/" target="_blank">
-              <LazyImage src={asset('assets/img/social/instagram.svg')} alt="Share on Instagram"/>
-            </a>
-            <a href="https://twitter.com/CGTNEurope" target="_blank">
-              <LazyImage src={asset('assets/img/social/twitter.svg')} alt="Share on Twitter"/>
-            </a>
-            <a href="https://www.facebook.com/CGTNEurope-1798882800328461/?ref=bookmarks" target="_blank">
-              <LazyImage src={asset('assets/img/social/facebook.svg')} alt="Share on Facebook"/>
-            </a>
-            <a href="https://www.youtube.com/channel/UCj0TppyxzQWm9JbMg3CP8Rg?view_as=subscriber" target="_blank">
-              <LazyImage src={asset('assets/img/social/youtube.svg')} alt="Share on YouTube"/>
-            </a>
+            <ShareIcons url={location.href} title={document.title} noText={true} />
           </div>
         </div>
 

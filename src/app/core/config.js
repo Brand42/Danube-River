@@ -17,7 +17,6 @@ export default {
       loop: true,
       mute: true,
       volume: 0.6,
-      fadeRate: 3000,
     },
   },
   articles: [

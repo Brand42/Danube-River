@@ -216,9 +216,7 @@ export default class SturgeonScreen extends BaseScreen {
                 <br/>
                 <br/>
                 Pressured by conservation groups, Ukraine was the first to introduce a ban on sturgeon fishing in 2000.
-                It was followed by Romania in 2006 and Bulgaria in 2011, which acted after the IUCN warned that 85
-                percent of sturgeon were at risk of extinction, “making them the most threatened group of animals on the
-                IUCN Red List of Threatened Species.”
+                It was followed by Romania in 2006, Bulgaria in 2011 and Serbia in January 2019. The IUCN had warned that 85 percent of sturgeon were at risk of extinction, making them “the most threatened group of animals on the IUCN Red List of Threatened Species.”
                 <br/>
                 <br/>
                 The legal caviar trade adapted to the bans, with sturgeon aquaculture farms flourishing. Where once
@@ -278,10 +276,7 @@ export default class SturgeonScreen extends BaseScreen {
                 species of the Danube, at zero investment, so they can afford to undercut our prices by a landslide.”
                 <br/>
                 <br/>
-                Due to the opacity of the market, it is almost impossible to know how much illegally sourced caviar is
-                being produced and consumed. According to Jutta Jahrl, sturgeon project leader for the World Wildlife
-                Federation (WWF) Austria: “In the caviar trade, there is an illegal part and a legal part and it is very
-                hard to distinguish between the two.”
+                Due to the opacity of the market, it is almost impossible to know how much illegally sourced caviar is being produced and consumed. According to Jutta Jahrl, sturgeon project leader for the World Wide Fund for Nature (WWF) Austria: “In the caviar trade, there is an illegal part and a legal part and it is very hard to distinguish between the two.”
                 <br/>
                 <br/>
                 While aquacultural farms were initially hailed as a solution for the industry, some are reportedly
