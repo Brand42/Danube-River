@@ -408,7 +408,7 @@ export default class MicroPlasticScreen extends BaseScreen {
             <div className="Paragraph">
               <div className="Paragraph__content Paragraph--v2">
                 So, some of the world’s brightest minds have been focusing on tackling the issue and pressure is growing for governments to act. But on a more personal level, what can be done to tackle the problem?<br/><br/>
-                Dilyana Mihaylova, marine plastics manager from Fauna and Flora International, advises consumers to check the labels on their cosmetics to ensure that they do not contain plastics that can end up in reiver and the sea.
+                Dilyana Mihaylova, marine plastics manager from Fauna and Flora International, advises consumers to check the labels on their cosmetics to ensure that they do not contain plastics that can end up in rivers and the sea.
               </div>
             </div>
           </div>
